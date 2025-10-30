@@ -112,6 +112,8 @@ def prueba_series_desde_tabla():
         else:
             print("Los números NO son aceptados")
 
+        input("\nPresione ENTER para salir")
+
     except Exception as e:
         print(f"Error: {e}")
 

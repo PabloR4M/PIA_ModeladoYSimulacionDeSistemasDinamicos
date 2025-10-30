@@ -64,6 +64,8 @@ def prueba_frecuencias():
         else:
             print("Los números NO son aceptados")
 
+        input("\nPresione ENTER para salir")
+
     except Exception as e:
         print(f"Error: {e}")
 

@@ -47,6 +47,8 @@ def prueba_promedio_automatica():
         else:
             print("\nLos números NO son aceptados")
 
+        input("\nPresione ENTER para salir")
+
     except ValueError:
         print("Ingresa valores válidos")
 

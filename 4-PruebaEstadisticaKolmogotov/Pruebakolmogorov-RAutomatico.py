@@ -51,6 +51,8 @@ def prueba_kolmogorov_automatica():
         else:
             print("Los números NO son aceptados")
 
+        input("\nPresione ENTER para salir")
+
     except ValueError:
         print("Ingresa valores válidos")
 

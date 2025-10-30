@@ -26,6 +26,8 @@ def lcg_multiplicativo(a, m, x0):
     if not ciclo_detectado:
         print("\nGENERADOR CONGRUENCIAL MULTIPLICATIVO " + ("CONFIABLE" if x == x0 else "NO CONFIABLE"))
 
+    input("\nPresione ENTER para salir")
+
 # Solicitar parámetros al usuario
 try:
     a = int(input("Introduce el valor de a: "))

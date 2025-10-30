@@ -26,6 +26,8 @@ def lcg(a, c, m, x0):
     if not ciclo_detectado:
         print("\nGENERADOR CONGRUENCIAL MIXTO " + ("CONFIABLE" if x == x0 else "NO CONFIABLE"))
 
+    input("\nPresione ENTER para salir")
+
 # Solicitar valores al usuario
 try:
     a = int(input("Introduce el valor de a: "))

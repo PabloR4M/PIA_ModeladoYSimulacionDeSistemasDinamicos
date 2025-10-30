@@ -83,6 +83,8 @@ def prueba_promedio_desde_tabla():
         else:
             print("\nLos números NO son aceptados")
 
+        input("\nPresione ENTER para salir")
+
     except Exception as e:
         print(f"Error: {e}")
 

@@ -50,6 +50,8 @@ def prueba_promedio():
         else:
             print("\nLos números NO son aceptados")
 
+        input("\nPresione ENTER para salir")
+
     except ValueError:
         print("Ingresa números validos")
 
